@@ -55,12 +55,12 @@ First, introduce a variable called tries at the top and give it a value of 0.
 Then, add a second condition with the tries variable to the while loop using a relational operator."""
 
 guess=0
-tries=0
-
-while guess!=6:
+tries=1
+while guess!=6 and tries<5:
   guess=int(input("guess the number:"))
   tries=tries+1
-  while tries==4:
+
+if guess!=6:
     print("exceeded number of tries")
-    quit()
-print("you got it!!")
+else:
+  print("you got it!!")
