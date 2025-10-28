@@ -19,7 +19,7 @@ Number	Planet	Relative Gravity
 5	Saturn	1.07
 6	Uranus	0.89
 7	Neptune	1.14
-If the user enters a planet number outside of 1 - 7, print a message that says 'Invalid planet number'.
+If the user enters a planet number outside of 1 - 7, print a message that says 'Invalid planet number'..
 
 """
 
